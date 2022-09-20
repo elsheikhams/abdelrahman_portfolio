@@ -67,7 +67,7 @@ Accuracy 0.9146285186894324
 
 A multi-class text classification model that predicts Arabic dialects given a text. Both machine learning models and deep learning architectures were used in this project. The highest accuarcy was achieved by using LinearSVC() classifier in the case of the machine learning models. The deep learning model, on the other hand, achieved less validation accuarcy. The deep learning architecture used in this classification problem was LSTM, with 3 epochs.
 
-You can view the source file at [Arabic Dialect Classification](https://github.com/elsheikhams/arabic_text_classification)
+You can view the source code at [Arabic Dialect Classification](https://github.com/elsheikhams/arabic_text_classification)
 
 - Data Retrieval from API
 - Performed Textual Data Cleaning
@@ -76,3 +76,20 @@ You can view the source file at [Arabic Dialect Classification](https://github.c
 - Model Training and Evaluation
 - Deep Learning Model
 - Model Deployment
+
+
+## Project #4 | COVID‑19 Classification from CT Scan Images
+
+Built a convolutional spiking neural network, based on Gabor filters, to extract features from CT scan images. These features were collecte in NumPy arrays and passed to a machine learning classifier for decision making. Implemented a novel neuron model that provides significantly better results than the classical integrate‑and‑fire model.
+
+- Used an open-source dataset 'COVID-CT-Dataset: A CT Image Dataset about COVID-19', available at [COVID-19 CT Image Dataset](https://github.com/UCSD-AI4H/COVID-CT)
+- Initialized Gabor Kernels using PyTorch
+- Modified [SpykeTorch](https://github.com/miladmozafari/SpykeTorch) package to account for the modified neuron model.
+- Extracted Features From Images using Convolutional Spiking Neural Network
+- Features Were Fed into a ML Classifier
+- The Implemented Neuron Model Achieved an Accuracy Higher by 6% than Classical IF Model
+
+
+## Project #5 | Pneumonia Classification from X‑Ray Images
+
+Developed a cloud‑based pneumonia classification model. Google Cloud Platform’s Vertex AI was used to develop the classification model using AutoML services. The model achieved an overall accuracy of 96%. The dataset used was [Kaggle's Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
